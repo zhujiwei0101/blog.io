@@ -4,13 +4,13 @@ header-img: "img/black.jpg"
 tagline: "cn"  
 description: "For algorithm learning"  # 一句话描述你的博客
 baseurl: ""
-url: "http://cnfeat"  # 此处填写你的博客地址 
+url: "https://zhujiwei0101.github.io/"  # 此处填写你的博客地址 
 
 # About/contact
 owner: 
-  name: "作者名字" # 填写作者信息：名字
+  name: "zhujiwei" # 填写作者信息：名字
   email: X@gmail.com # 填写作者信息：邮箱
-  bio: "你的博客描述" # 填写作者信息：博客描述
+  bio: "For algorithm learning" # 填写作者信息：博客描述
 # Data
 gavatar: img/zhujiwei.png # 浏览器地址栏小图标，可自定义更改
 favicon: img/zhujiwei.png # 浏览器地址栏小图标，可自定义更改
