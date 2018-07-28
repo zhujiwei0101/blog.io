@@ -8,7 +8,8 @@ tags:
 
 今日的学习记录
 -   ac自动机
-    [HDU - 3341](https://cn.vjudge.net/problem/15628/origin) 
+    
+   <font color=#00ffff size=3>[HDU - 3341](https://cn.vjudge.net/problem/15628/origin) </font>
    题意：现给定一堆数论基因序列，以及一段DNA序列，重排该DNA序列使基因数目最多
   思路：ac自动机+状压DP
 
@@ -16,7 +17,7 @@ tags:
    不是很了解，故写在记录里
    贴上代码 （代码也参考了网上别人的，姑且算是学习吧）
 ``` c++
-#include<bits/stdc++.h>`
+#include<bits/stdc++.h>
 using namespace std;
 int n;
 char s[100];
@@ -154,11 +155,12 @@ int main()
 > **Bézout's identity** — Let *a* and *b* be [integers](https://en.wikipedia.org/wiki/Integer "Integer") with [greatest common divisor](https://en.wikipedia.org/wiki/Greatest_common_divisor "Greatest common divisor") *d*. Then, there exist integers *x* and *y* such that *ax* + *by* = *d*. More generally, the integers of the form *ax* + *by* are exactly the multiples of *d*. (引用自维基百科)
 
 
-[Codeforces 1010C](http://codeforces.com/problemset/problem/1010/C)
+<font color=#00ffff size=3>[Codeforces 1010C](http://codeforces.com/problemset/problem/1010/C) </font>
+
 题意：给定一堆十进制的数以及d,将这些数转换成d进制后，可以随意相加，问能最后一位的数字能得到多少种
 思路：令a1,a2..an为转换后的序列，k=a1x1+a2x2+...+anxn;问题转换成k%d能得到多少种
 根据Bézout's identity 可知k为gcd(a1,a2.....an)的倍数，故求出所有数的gcd即可得到答案
-```
+```c++
 #include<bits/stdc++.h>
 using namespace std;
 int gcd(int a,int b)
