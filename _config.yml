@@ -40,9 +40,9 @@ defaults:
   -
     scope: 
       path: ""
-      type: "posts"
+      type: "_posts"
     values:
-      layout: "post"
+      layout: "_post"
       author: "zhujiwei" # 你的名字
       header-img: "img/green.jpg" # We don't want posts without a header image, that whould mean white on white
 
