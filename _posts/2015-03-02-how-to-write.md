@@ -7,7 +7,7 @@ tags:
 ---
 
 ### 今日的学习记录
--   ac自动机
+######  ac自动机
     
    <span style="color:blue;"> [HDU - 3341](https://cn.vjudge.net/problem/15628/origin) </span>
    
@@ -155,7 +155,7 @@ int main()
     return 0;
 }
 ```
-- 数论 Bézout's identity
+###### 数论 Bézout's identity
 > **Bézout's identity** — Let *a* and *b* be [integers](https://en.wikipedia.org/wiki/Integer "Integer") with [greatest common divisor](https://en.wikipedia.org/wiki/Greatest_common_divisor "Greatest common divisor") *d*. Then, there exist integers *x* and *y* such that *ax* + *by* = *d*. More generally, the integers of the form *ax* + *by* are exactly the multiples of *d*. (引用自维基百科)
 
 
