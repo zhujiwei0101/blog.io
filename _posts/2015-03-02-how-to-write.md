@@ -6,8 +6,8 @@ categories: blog
 tags: 
 ---
 
-#今日的学习记录
--   ######ac自动机
+今日的学习记录
+-   ac自动机
     [HDU - 3341](https://cn.vjudge.net/problem/15628/origin) 
    题意：现给定一堆数论基因序列，以及一段DNA序列，重排该DNA序列使基因数目最多
   思路：ac自动机+状压DP
@@ -15,7 +15,7 @@ tags:
    本是一个很常见的匹配问题，但自己之前没有写过状压DP的题目，对这些操作 
    不是很了解，故写在记录里
    贴上代码 （代码也参考了网上别人的，姑且算是学习吧）
-``` 
+``` c++
 #include<bits/stdc++.h>`
 using namespace std;
 int n;
@@ -150,7 +150,7 @@ int main()
     return 0;
 }
 ```
-- ######数论 Bézout's identity
+- 数论 Bézout's identity
 > **Bézout's identity** — Let *a* and *b* be [integers](https://en.wikipedia.org/wiki/Integer "Integer") with [greatest common divisor](https://en.wikipedia.org/wiki/Greatest_common_divisor "Greatest common divisor") *d*. Then, there exist integers *x* and *y* such that *ax* + *by* = *d*. More generally, the integers of the form *ax* + *by* are exactly the multiples of *d*. (引用自维基百科)
 
 
