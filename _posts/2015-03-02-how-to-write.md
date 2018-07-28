@@ -6,7 +6,7 @@ categories: blog
 tags: 
 ---
 
-今日的学习记录
+### 今日的学习记录
 -   ac自动机
     
    <span style="color:blue;"> [HDU - 3341](https://cn.vjudge.net/problem/15628/origin) </span>
