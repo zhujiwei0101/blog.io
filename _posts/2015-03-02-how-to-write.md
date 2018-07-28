@@ -10,8 +10,10 @@ tags:
 -   ac自动机
     
    <font color=#00ffff size=3>[HDU - 3341](https://cn.vjudge.net/problem/15628/origin) </font>
+   
+   
    题意：现给定一堆数论基因序列，以及一段DNA序列，重排该DNA序列使基因数目最多
-  思路：ac自动机+状压DP
+   思路：ac自动机+状压DP
 
    本是一个很常见的匹配问题，但自己之前没有写过状压DP的题目，对这些操作 
    不是很了解，故写在记录里
