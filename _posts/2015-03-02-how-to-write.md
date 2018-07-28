@@ -13,6 +13,8 @@ tags:
    
    
    题意：现给定一堆数论基因序列，以及一段DNA序列，重排该DNA序列使基因数目最多
+   
+   
    思路：ac自动机+状压DP
 
    本是一个很常见的匹配问题，但自己之前没有写过状压DP的题目，对这些操作 
@@ -160,6 +162,8 @@ int main()
 <font color=#00ffff size=3>[Codeforces 1010C](http://codeforces.com/problemset/problem/1010/C) </font>
 
 题意：给定一堆十进制的数以及d,将这些数转换成d进制后，可以随意相加，问能最后一位的数字能得到多少种
+
+
 思路：令a1,a2..an为转换后的序列，k=a1x1+a2x2+...+anxn;问题转换成k%d能得到多少种
 根据Bézout's identity 可知k为gcd(a1,a2.....an)的倍数，故求出所有数的gcd即可得到答案
 ```c++
