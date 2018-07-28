@@ -20,9 +20,9 @@ header-img: "img/semantic.jpg"
 	<div class="row">
 		<div class="col-lg-8 col-md-10">
             <!-- 标签云 -->
-			<div id='tag_cloud' class="tags style="color:#0000FF">
+			<div id='tag_cloud' class="tags>
 				{% for tag in site.tags %}
-				<a href="#{{ tag[0] }}" title="{{ tag[0] }}" rel="{{ tag[1].size }}">{{ tag[0] }}</a>
+				<a href="#{{ tag[0] }}" title="{{ tag[0] }}" rel="{{ tag[1].size }}" style="color:#0000FF">{{ tag[0] }}</a>
 				{% endfor %}
 			</div>
             <!-- 标签列表 -->
