@@ -94,6 +94,7 @@ struct Trie
                     for(int j=0;j<4;j++)
                     {
                         //cout<<j<<" "<<R<<" "<<D<<" "<<i<<" "<<dp[j][R][D][i]<<endl;
+                        
                         if(dp[j][R][D][i]==0)continue;
                         int now=next[i][0];
                         if(R<n)
@@ -145,7 +146,9 @@ int rut[10];
 double dis(int x1,int y1,int x2,int y2)
 {
     //double c1=1.0*(x1-x2)*(x1-x2);
+    
     //double c2=1.0*(y1-y2)*(y1-y2);
+    
     return sqrt((double)((1.0*x1-x2)*(1.0*x1-x2))+(double)((1.0*y1-y2)*(1.0*y1-y2)));
 }
 struct Trie
@@ -213,6 +216,7 @@ struct Trie
         dp[i][j]=1e15;
         double inf=1e15;
         //cout<<(int)inf<<endl;
+        
         dp[1][next[root][1]]=0;
         for(int i=1;i<n;i++)
         for(int j=0;j<L;j++)
@@ -225,7 +229,9 @@ struct Trie
                 {
                     double d=dis(p[i].x,p[i].y,p[k].x,p[k].y);
                     //cout<<flag[j].x<<" "<<flag[j].y<<" "<<p[k].x<<" "<<p[k].y<<" "<<d<<endl;
+                    
                     //cout<<i<<" "<<j<<" "<<k<<" "<<dp[i][j]<<" "<<d<<endl;
+                    
                     dp[k][now]=min(dp[k][now],dp[i][j]+d);
                 }
             }
@@ -274,6 +280,7 @@ int main()
         }
         ac.build();
         //ac.debug();
+        
         ac.solve();
     }
     return 0;
