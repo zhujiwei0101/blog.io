@@ -2,7 +2,7 @@
 layout: post
 title: 2018.7.29学习记录
 date: 2018-7-29
-tags:[字符串]
+tags: [字符串]
 catalog: true
 ---
 
