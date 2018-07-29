@@ -18,6 +18,7 @@ catalog: true
 
 ```c++
 #include<bits/stdc++.h>
+
 using namespace std;
 const int mod=1000000007;
 int n,m,t;
@@ -136,7 +137,8 @@ int main()
  
  思路：本是一个ac自动机+DP的题目，但是自己不知道什么情况推了半天，之后还一直wa，最后发现是求距离的时候精度出了问题，以后还是要注意这样的细节啊
  ```c++
- #include<bits/stdc++.h>
+#include<bits/stdc++.h>
+
 using namespace std;
 int n,m;
 struct node
